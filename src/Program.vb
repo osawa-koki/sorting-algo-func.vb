@@ -24,5 +24,13 @@ Module Program
     SelectionSort(nums)
     Display("Selection Sorted", nums)
 
+    ' シャッフル
+    Shuffle(nums)
+    Display("Shuffled", nums)
+
+    ' 挿入ソート
+    InsertionSort(nums)
+    Display("Insertion Sorted", nums)
+
   End Sub
 End Module
