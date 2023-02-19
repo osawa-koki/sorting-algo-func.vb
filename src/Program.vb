@@ -8,7 +8,7 @@ Module Program
     ' 配列の要素を表示
     Display("Original", nums)
 
-    ' 配列をシャッフル
+    ' シャッフル
     Shuffle(nums)
     Display("Shuffled", nums)
 
