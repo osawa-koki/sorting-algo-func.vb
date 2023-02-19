@@ -12,5 +12,9 @@ Module Program
     Shuffle(nums)
     Display("Shuffled", nums)
 
+    ' バブルソート
+    BubbleSort(nums)
+    Display("Bubble Sorted", nums)
+
   End Sub
 End Module
