@@ -32,5 +32,13 @@ Module Program
     InsertionSort(nums)
     Display("Insertion Sorted", nums)
 
+    ' シャッフル
+    Shuffle(nums)
+    Display("Shuffled", nums)
+
+    ' クイックソート
+    QuickSort(nums)
+    Display("Quick Sorted", nums)
+
   End Sub
 End Module
