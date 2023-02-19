@@ -17,3 +17,10 @@
 ## 実行方法
 
 Visual Basicを開いてそのまま実行してください。  
+
+Dockerを用いる場合には、以下のコマンドを実行してください。  
+
+```shell
+docker build -t sorting-algo-func-vb .
+docker run -it --name my-sorting-algo-func-vb sorting-algo-func-vb
+```
