@@ -40,5 +40,13 @@ Module Program
     QuickSort(nums)
     Display("Quick Sorted", nums)
 
+    ' シャッフル
+    Shuffle(nums)
+    Display("Shuffled", nums)
+
+    ' マージソート
+    MergeSort(nums)
+    Display("Merge Sorted", nums)
+
   End Sub
 End Module
