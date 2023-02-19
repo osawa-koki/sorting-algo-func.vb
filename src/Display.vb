@@ -1,4 +1,5 @@
-﻿Module DisplayModule
+
+Module DisplayModule
   Sub Display(ByVal title As String, ByRef nums As Array)
 
     Console.Write(title.PadRight(20) + ": ")

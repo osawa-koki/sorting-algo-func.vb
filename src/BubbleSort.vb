@@ -1,6 +1,7 @@
-﻿Module BubbleSortModule
 
-	Sub BubbleSort(ByRef nums As Array)
+Module BubbleSortModule
+
+  Sub BubbleSort(ByRef nums As Array)
 
     ' バブルソート
     For i As Integer = 0 To nums.Length - 1
