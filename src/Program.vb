@@ -72,5 +72,13 @@ Module Program
     BucketSort(nums)
     Display("Bucket Sorted", nums)
 
+    ' シャッフル
+    Shuffle(nums)
+    Display("Shuffled", nums)
+
+    ' カウントソート
+    CountSort(nums)
+    Display("Count Sorted", nums)
+
   End Sub
 End Module
