@@ -48,5 +48,13 @@ Module Program
     MergeSort(nums)
     Display("Merge Sorted", nums)
 
+    ' シャッフル
+    Shuffle(nums)
+    Display("Shuffled", nums)
+
+    ' ヒープソート
+    HeapSort(nums)
+    Display("Heap Sorted", nums)
+
   End Sub
 End Module
