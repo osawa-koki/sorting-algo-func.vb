@@ -64,5 +64,13 @@ Module Program
     ShellSort(nums)
     Display("Shell Sorted", nums)
 
+    ' シャッフル
+    Shuffle(nums)
+    Display("Shuffled", nums)
+
+    ' バケットソート
+    BucketSort(nums)
+    Display("Bucket Sorted", nums)
+
   End Sub
 End Module
