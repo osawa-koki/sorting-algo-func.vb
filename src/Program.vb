@@ -16,5 +16,13 @@ Module Program
     BubbleSort(nums)
     Display("Bubble Sorted", nums)
 
+    ' シャッフル
+    Shuffle(nums)
+    Display("Shuffled", nums)
+
+    ' 選択ソート
+    SelectionSort(nums)
+    Display("Selection Sorted", nums)
+
   End Sub
 End Module
